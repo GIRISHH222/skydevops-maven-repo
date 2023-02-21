@@ -1,9 +1,9 @@
 pipeline {
   environment {
     VERSION = "${env.BUILD_ID}"
-    dockerimagename = "ravirekha1/skydevopsapp"
+    dockerimagename = "girishh222/girish5"
     registry = "https://hub.docker.com/"
-    registryCredential = 'my-docker-private-id'
+    registryCredential = 'girishh222/girish5'
     dockerImage = ""	  
 	  
     }
