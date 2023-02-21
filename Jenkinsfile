@@ -11,12 +11,12 @@ pipeline {
         maven 'maven3.9.0'
     }
   agent {
-  label 'my_slave1'
+  label 'slave01'
   }
   stages{
     stage ('Checkout SCM') {
           steps {
-			 git branch: 'main', url: 'https://github.com/ravirekha/skydevops-maven-repo.git'
+			 git branch: 'main', url: 'https://github.com/GIRISHH222/skydevops-maven-repo.git'
             }
         }    
 	
