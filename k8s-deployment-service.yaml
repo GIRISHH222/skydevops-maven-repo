@@ -18,8 +18,8 @@ spec:
       imagePullSecrets:
       - name: ravi-docker-registry
       containers:
-      - name: skydevops-container
-        image: ravirekha1/skydevopsapp:13
+      - name: sky-devops-container
+        image: girishh222/girish5:latest
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
