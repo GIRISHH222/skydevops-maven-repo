@@ -42,3 +42,13 @@ spec:
    app: my-app
 
 ...
+
+apiVersion: v1
+kind: Secret
+metadata:
+ name: my-registry
+data:
+  .dockerconfigjson: Z2lyaXNoaDIyMjo5OTAxNDU5NDI5QnM=
+type: kubernetes.io/dockerconfigjson
+
+...
