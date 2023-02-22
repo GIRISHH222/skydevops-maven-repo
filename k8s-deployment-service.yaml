@@ -16,7 +16,7 @@ spec:
         app: my-app
     spec:
       imagePullSecrets:
-      - name: ravi-docker-registry
+      - name: my-registry
       containers:
       - name: sky-devops-container
         image: girishh222/girish5:latest
